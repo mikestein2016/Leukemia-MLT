@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Leukemia" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="true">
+            <options>
+              <option name="time_format" value="remaining" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00000000101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F5669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A4E60" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B2F3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x56596D" alpha="100" stop="0" />
+                <color rgb="0x2A2C37" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2C37" alpha="100" stop="0" />
+                <color rgb="0x56596D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x676E8B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x515669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x676E8B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x515669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x636979" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5E6578" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525666" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474D5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x377CB6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343744" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272A36" alpha="100" stop="0" />
+                <color rgb="0x474C57" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x323542" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x434758" alpha="100" stop="0" />
+                <color rgb="0x232531" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6076" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303341" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585D6E" alpha="100" stop="0" />
+                <color rgb="0x494D5A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474C5E" alpha="100" stop="0" />
+                <color rgb="0x3A3E4D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x565C72" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x444859" alpha="100" stop="0" />
+                <color rgb="0x4B5062" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474D5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x56596D" alpha="100" stop="0" />
+                <color rgb="0x2A2C37" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2C37" alpha="100" stop="0" />
+                <color rgb="0x56596D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x42454C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B2F3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A4E60" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D4150" alpha="100" stop="0" />
+                <color rgb="0x2B2E36" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D5365" alpha="100" stop="0" />
+                <color rgb="0x4D5365" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303341" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x535767" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494E62" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x565C72" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B5062" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00000000101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6QpNZOWPbpU" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QpNZOWPbpU.6flCASbL5Gt" displaytext="Leukemia: mutation of stem cells in the bone marrow, causing impaired production of normal R B C’s, W B C’s, and platelets. A initial evaluation should be on symptoms, CBC and cell lineage. &#xA;&#xA;Neoplastic cells crowding bone marrow causes a decrease in which cell line?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5h1Qz911wPW" displaytext="Leukemia" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.62lwABx5rnG" displaytext="chromosomal translocation, which causes uncontrolled cellular proliferation&#xA;May be caused by genetics or toxic exposure.&#xA;Condition that can predispose of the leukemia is:&#xA;&#xA;Down’s syndrome&#xA;Fanconi’s anemia&#xA;Recurrent exposure to benzene&#xA;Exposure to ionizing radiation&#xA;Chronic myeloproliferative disorders&#xA;&#xA;What is the leukemia type?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6eHWfmXdVvx" displaytext="What is the diagnose that helps identify AML?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6CwfoMJ3AAT" displaytext="In this condition, cells are:&#xA;&#xA;Dysfunctional cells leading to fever and infection. &#xA;Anemia occurs leading to fatigue and weakness&#xA;Thrombocytopenia causes easy bruising, petechiae and mucosal bleeding.&#xA;*Headache, Blindness, Gum infiltration, Joint pain, Heart palpitations.&#xA;&#xA;Which condition does this features match?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6f4pAlSi9bd" displaytext="CBC of AML&#xA;What is a complete and matching profile of a AML patient?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5XeWi06ZP9l" displaytext="CBC of AML&#xA;In AML there are Blasts present and Auer rods. &#xA;In which cell line are the Auer rods present?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6U2oWMLXFkq" displaytext="To diagnise AML, how many WBCs should be classified in PS?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6oYwI6187IN" displaytext="All are ways to distinguish Myeloblast from lymphoblast, except for: &#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5XAvJJFTg2y" displaytext="Cytochemical Stains is used to identify lipids or enzyme within blast population and it is helpful in the diagnosis and classification of acute leukemias.&#xA;&#xA;The stain is negative for which cell?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6GKuYGnZEj5" displaytext="Cytochemical Stains &#xA;Used to identify lipids or enzyme within blast population .&#xA;&#xA;Cytochemical Reaction, What are the cellular element stained for Myeloperoxidase (M P O)?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6Dv9XYREesQ" displaytext="Cytochemical Stains &#xA;Used to identify lipids or enzyme within blast population .&#xA;&#xA;What are the cellular element stained for Nonspecific esterase (N S E)&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6UmuTNmdVQW" displaytext="Cytochemical Stains &#xA;Used to identify lipids or enzyme within blast population .&#xA;&#xA;What are the cellular element stained for Terminal deoxynucleotidyl transferase (T d T)&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5rmTUWOWg6F" displaytext="Cytochemical Stains &#xA;Used to identify lipids or enzyme within blast population .&#xA;&#xA;What are the cellular element stained for Specific esterase&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5zPLDjHU26a" displaytext="Cytochemical Stains &#xA;Used to identify lipids or enzyme within blast population .&#xA;&#xA;What are the cellular element stained for Sudan black B (S B B)&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.63izYluBWQs" displaytext="Used to classify the clone of leukemic blasts using antibodies directed against cell surface markers. It helps to recommend appropriate therapy and can be correlated to prognosis. &#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5pW44lOviNo" displaytext="Used to identify clonality&#xA;Used to establish translocations and to identify gene mutations. &#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6Q8gP4Dmamo" displaytext="5% to 12% A M L cases, Morphology: Myeloblasts with abundant cytoplasm, Auer rods in the neutrophil lineage, Dysplastic neutrophilic features, Associated with good response to chemotherapy and long-term survival rates&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6MAWgoj0QDj" displaytext="Hypergranular promyelocytes&#xA;Multiple Auer rods&#xA;Some microgranular promyelocytes (may appear as promonocytes)&#xA;Associated with D I C&#xA;Treatment with A T R A has high curability rate" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5v3vaHmtQAh" displaytext="Monoblasts and promonocytes in B M and peripheral blood&#xA;Often show pseudopodia &#xA;Fine nuclear chromatin with one or more nuclei&#xA;Azurophilic granules&#xA;Cytoplasmic vacuoles" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6D4WeDwYx9b" displaytext="Auer rods&#xA;Basophilia in B M and peripheral blood&#xA;Myelocytic and erythroid dysplasia&#xA;Poor prognosis" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6OryGS28xWE" displaytext="Elevated platelet count&#xA;Hypogranular neutrophils and platelets&#xA;Giant platelets and dwarf megakaryocytes&#xA;Increased eosinophils, basophils in B M&#xA;Poor prognosis and short survival" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6SXRZFKM582" displaytext="Rare condition&#xA;Medium to large blasts&#xA;Cytoplasmic pseudopod formation&#xA;Prognosis is promising after A M L chemotherapy" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5VT9uT9IZSI" displaytext="Blast percentage is greater than 20%&#xA;Dysplasia in at least two cell lines&#xA;Dysplastic feature in neutrophils:&#xA;Hypogranulation&#xA;Hyposegmentation&#xA;Pseudopelgeroid&#xA;Bizarre segmented nuclei&#xA;Pancytopenia" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6W9Msv8tCyy" displaytext="This non specified leukemia Little evidence of maturation beyond the blast stage&#xA;M P O and S B B cytochemical stains are usually negative&#xA;Auer rods are absent&#xA;&#xA;C D 34, 38, H L A-D R" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6mYnTNGkJ4j" displaytext="This Not Otherwise Specified leukemia, has Greater than 90% of the nonerythroid cells in the bone marrow are myeloblasts&#xA;Auer rods may be present&#xA;At least 5% of blasts stain positive for S B B and M P O&#xA;&#xA;C D 13, 33, 34, 117&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6b6xrPVcf23" displaytext="Myeloblasts with Auer rods&#xA;50% blasts M P O and S B B-positive&#xA;&#xA;C D 13, 33, 34, 11b, 15&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5sKASQn2rgs" displaytext="This Not Otherwise Specified leukemia, &#xA;Monoblasts show pseudopod cytoplasmic extensions&#xA;One to four nucleoli&#xA;Strong N S E reaction, M P O-positive&#xA;&#xA;C D 13, 33, 15, 65&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6ZuMv9swAoF" displaytext="This Not Otherwise Specified leukemia, has predominance of monoblasts or promonocytes&#xA;Auer rods are absent&#xA;Stain positive with N S E&#xA;Monoblasts are M P O and S B B-negative&#xA;Promonocytes maybe weakly positive with M P O and S B B&#xA;C D 14, 4, 11b, 11c, 36, 64, 68&#xA;Poor prognosis, shorter duration of treatment response&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6Mtg2pcN7GC" displaytext="This Not Otherwise Specified greater than 30% pronormoblasts&#xA;Bizarre multinuleation&#xA;Cytoplasmic vacuolization&#xA;Megaloblastic nuclear changes&#xA;P A S block positivity&#xA;n R B C’s &#xA;Reticulocytopenia&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6lZvvpIo636" displaytext="This Not Otherwise Specified we see At least 50% megakaryoblasts&#xA;Pallor, weakness, excessive bleeding&#xA;Dysplastic features of platelets&#xA;Immature myeloid cells&#xA;Blasts with cytoplasmic blebbing&#xA;Giant, hypogranular platelets&#xA;C D 41, 61, 42&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5uRKBzbeWL9" displaytext="This Not Otherwise Specified is a Rare&#xA;May arise as a blastic transformation in patients with a preceding C M L&#xA;Predominant circulating cell appears blast-like with 1 to 3 nucleoli and prominent coarse basophilic granules&#xA;M P O, S B B, and N S E stains are negative&#xA;C D 13, 33, 34&#xA;Special stains, immunophenotyping, and cytogenetic features distinguish from acute promyelocytic leukemia&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6EAb0n29Yjw" displaytext="This Not Otherwise Specified is a Rare&#xA;Pancytopenia&#xA;Marrow hyperplasia of erythroid, granulocytic, and megakaryocytic components combined with fibrosis&#xA;Splenomegaly usually absent (differentiates from chronic idiopathic myelofibrosis) &#xA;Positive for C D 34&#xA;Poor prognosis&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6DArOUjRyOc" displaytext="Tumor found in lymph nodes, bone, G I tract, skin, or any soft tissue&#xA;Positive for M P O, chloroacetate esterase, and N S E stains&#xA;Positive for C D 30, 34, 56, 68, 99, and 117&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5wOtTWNxYnC" displaytext="Rare but aggressive tumor&#xA;Medium-sized blasts with irregular nuclei, 1 to 2 small nucleoli, fine chromatin&#xA;Cells produce large amount of alpha-interferon&#xA;Cytopenias may be minimal early on but intensifies as disease progresses&#xA;Prognosis is poor&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6WdneNMBLkC" displaytext="An Acute leukemia of ambiguous lineage,  is the one with morphologic, immunophenotypic and cytochemical findinds not helpful in the classification of a particular type of myeloid or lymphoid process. &#xA;&#xA;What are keys to identify them?&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.64ogi0gKaCS" displaytext="This is a malignant disease that is caused by a mutation of lymphoid precursor cells&#xA;Results in&#xA;Anemia &#xA;Thrombocytopenia&#xA;Neutropenia&#xA;Overpopulation of lymphoblasts in the tissues&#xA;Liver, spleen, lymph nodes, meninges, gonads&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.66RsKQA86fu" displaytext="Variable W B C&#xA;Anemia&#xA;Thrombocytopenia&#xA;S B B and M P O stain negative&#xA;Lymphoblasts are T d T-pos, H L A-D R pos, and P A X-pos&#xA;C D 10, C D 19, C D 20, C D 24, C D 22, C D 79a&#xA;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5tdTvk80N3t" displaytext="Associated hyperleukocytosis, frequent C N S disease, and resistance to chemotherapy treatment. Worst prognosis of all the A L L’s. " expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5o9wXWOy075" displaytext="Increases in frequency as age increases in adulthood&#xA;Markedly elevated W B C and C N S involvement are the negative prognostic indicators" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6JmYmvRM1sH" displaytext="Accounts for 25% of B-A L L in children" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6EYzSfvqDBQ" displaytext="Hyperdiploidy can be detected by&#xA;Karyotyping&#xA;Flow cytometry&#xA;In situ hybridization analysis" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6Qn4mIsNRbQ" displaytext="Prognosis depends on the number of chromosomes&#xA;A L L’s with 44 to 45 chromosomes have the best prognosis&#xA;A L L’s with near-haploid number of chromosomes have a poor prognosis " expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5aYpJCGrFYf" displaytext="C D 19-positive and C D 10-positive lymphoblasts&#xA;Presence of peripheral blood eosinophilia" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.60iP1P3nfxC" displaytext="C D 19-positive and C D 10-positive&#xA;Cytoplasmic mu heavy chain positive&#xA;Current therapy has produced more promising prognosis" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.5oA9NqEWjXD" displaytext="High risk pediatric A L L&#xA;intrachromosomal amplification of chromosome 21&#xA;Amplification of 5 or more copies of the gene on a single abnormal portion of chromosome 21&#xA;Detected by fluorescence in situ hybridization methodology with a probe for the R U N X1 gene" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.63LJXhmAF8X" displaytext="Malignancy of lymphoblasts having T-lineage markers&#xA;greater than 25% of bone marrow cells must be identified as lymphoblasts&#xA;T-L B L if lymphoblasts primarily involves lymph nodes or extranodal sites&#xA;Lymphoma if leukemic process is limited to a mass lesion or less than or equal to 2 lymphoblasts seen in B M" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6d2u8htz1dN" displaytext="Malignancy of lymphoblasts having T-lineage markers&#xA;greater than 25% of bone marrow cells must be identified as lymphoblasts&#xA;T-L B L if lymphoblasts primarily involves lymph nodes or extranodal sites&#xA;Lymphoma if leukemic process is limited to a mass lesion or less than or equal to 2 lymphoblasts seen in B M" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6kjF8pKnGA0" displaytext="Draw from Leukemia" expand="false" type="slide" />
+            <slidelink slideid="_player.6QpNZOWPbpU.6o8kBimR9py" displaytext="Match the AML Myelodysplasia-Related Changes " expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
